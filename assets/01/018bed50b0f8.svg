@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 设计意图：浅色科技风 · 概率候选实验台版 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 620"
+     preserveAspectRatio="xMidYMid meet"
+     font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display', 'PingFang SC', 'Helvetica Neue', sans-serif">
+
+<defs>
+  <filter id="softShadow" x="-15%" y="-15%" width="130%" height="130%">
+    <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#0F172A" flood-opacity="0.10"/>
+  </filter>
+  <linearGradient id="msgBlue" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#2F7CF6"/><stop offset="100%" stop-color="#1B5FD8"/>
+  </linearGradient>
+  <linearGradient id="probBar" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#FFB36A"/><stop offset="100%" stop-color="#FF6A00"/>
+  </linearGradient>
+  <linearGradient id="activeRow" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#FFF8F1"/><stop offset="100%" stop-color="#F5FAFF"/>
+  </linearGradient>
+</defs>
+
+<style><![CDATA[
+  .title-zh { font-size: 24px; fill: #111827; font-weight: 760; letter-spacing: -0.4px; }
+  .title-en { font-size: 11px; fill: #64748B; letter-spacing: 1.6px; font-family: 'SF Mono', Menlo, monospace; }
+  .bubble-text-user { fill: #111827; font-size: 15px; font-weight: 650; }
+  .bubble-text-ai { fill: #fff; font-size: 14px; font-weight: 520; }
+  .section-label { font-size: 11px; fill: #64748B; letter-spacing: 1.2px; font-weight: 760; font-family: 'SF Mono', Menlo, monospace; }
+  .progress-text { font-size: 12px; fill: #64748B; letter-spacing: 0.2px; font-weight: 600; }
+  .ctx-chip { font-size: 11px; fill: #FF6A00; font-weight: 760; font-family: 'SF Mono', Menlo, monospace; }
+  .row-rank { font-size: 10px; fill: #64748B; font-weight: 800; font-family: 'SF Mono', Menlo, monospace; pointer-events: none; }
+  .row-token { font-size: 16px; fill: #111827; font-weight: 650; pointer-events: none; }
+  .row-pct { font-size: 12px; fill: #111827; font-weight: 720; font-family: 'SF Mono', Menlo, monospace; pointer-events: none; }
+  .row-id { font-size: 9px; fill: #94A3B8; letter-spacing: 0.2px; font-family: 'SF Mono', Menlo, monospace; pointer-events: none; }
+  .row { cursor: pointer; pointer-events: all; }
+  .row .bg { fill: #FFFFFF; stroke: #E5EAF0; stroke-width: 1; }
+  .row .dot { fill: #EEF2F7; }
+  .row .barbg { fill: #EEF2F7; }
+  .row .barfg { fill: #CBD5E1; }
+  .row:hover .bg { fill: url(#activeRow) !important; stroke: #FF9A3D !important; stroke-width: 1.4; }
+  .row:hover .dot { fill: #FFE2C7 !important; }
+  .row:hover .row-token { fill: #D65F00 !important; }
+  .row:hover .barfg { fill: url(#probBar) !important; }
+  .row.picked .bg { fill: url(#activeRow) !important; stroke: #FF6A00 !important; stroke-width: 1.6; }
+  .row.picked .dot { fill: #FF6A00 !important; }
+  .row.picked .row-rank { fill: #fff !important; }
+  .row.picked .row-token { fill: #D65F00 !important; font-weight: 760; }
+  .row.picked .row-pct { fill: #D65F00 !important; font-weight: 760; }
+  .row.picked .row-id { fill: #D8A074 !important; }
+  .row.picked .barbg { fill: #FFE8D6 !important; }
+  .row.picked .barfg { fill: url(#probBar) !important; }
+  .reset-btn { cursor: pointer; }
+  .reset-btn .btn-bg { fill: #fff; stroke: #FF6A00; stroke-width: 1.2; }
+  .reset-btn .btn-text { fill: #D65F00; font-size: 11px; font-weight: 760; letter-spacing: 1px; font-family: 'SF Mono', Menlo, monospace; }
+  .reset-btn:hover .btn-bg { fill: #FF6A00; }
+  .reset-btn:hover .btn-text { fill: #fff; }
+]]></style>
+
+<rect width="760" height="620" fill="#F7F8FA"/>
+<g filter="url(#softShadow)">
+  <rect x="34" y="30" width="692" height="560" rx="28" fill="#FFFFFF" stroke="#E5EAF0"/>
+</g>
+
+<text x="66" y="68" class="title-zh">大模型的文字接龙模拟</text>
+<text x="66" y="90" class="title-en">NEXT TOKEN PREDICTION LAB</text>
+<rect x="540" y="48" width="150" height="34" rx="17" fill="#FFF4EA" stroke="#FED7AA"/>
+<text x="615" y="70" text-anchor="middle" fill="#D65F00" font-size="11" font-weight="760">概率采样</text>
+
+<rect fill="#FBFCFE" x="66" y="120" width="628" height="176" rx="20" stroke="#E2E8F0"/>
+<text x="90" y="150" fill="#64748B" font-size="12" font-weight="700">Prompt</text>
+<g filter="url(#softShadow)">
+  <rect fill="#EEF2F7" x="90" y="166" width="214" height="40" rx="18"/>
+</g>
+<text x="108" y="191" class="bubble-text-user">什么是大模型？</text>
+<text x="90" y="232" fill="#64748B" font-size="12" font-weight="700">Generation</text>
+<g filter="url(#softShadow)">
+  <rect id="aiBubble" fill="url(#msgBlue)" x="90" y="246" width="120" height="44" rx="20"/>
+</g>
+<text id="aiText" x="104" y="272" class="bubble-text-ai"><tspan x="104">大模型是一种</tspan></text>
+
+<text x="66" y="334" class="section-label">TOP-K CANDIDATES</text>
+<text id="ctxChip" x="210" y="334" class="ctx-chip" display="none">· P(t│∅)</text>
+<text id="progressText" x="694" y="334" text-anchor="end" class="progress-text">TOKEN #1 / 4 · 选择一条路线</text>
+
+<g id="candLayer">
+  <g class="row" id="row0">
+    <rect class="bg" x="66" y="354" width="628" height="48" rx="14"/>
+    <circle class="dot" cx="92" cy="378" r="14"/>
+    <text class="row-rank" x="92" y="382" text-anchor="middle">1</text>
+    <text class="row-token" x="122" y="384">—</text>
+    <rect class="barbg" x="302" y="375" width="190" height="7" rx="4"/>
+    <rect class="barfg" x="302" y="375" width="0" height="7" rx="4"/>
+    <text class="row-pct" x="548" y="384" text-anchor="end">0%</text>
+    <text class="row-id" x="570" y="384">#—</text>
+  </g>
+  <g class="row" id="row1">
+    <rect class="bg" x="66" y="410" width="628" height="48" rx="14"/>
+    <circle class="dot" cx="92" cy="434" r="14"/>
+    <text class="row-rank" x="92" y="438" text-anchor="middle">2</text>
+    <text class="row-token" x="122" y="440">—</text>
+    <rect class="barbg" x="302" y="431" width="190" height="7" rx="4"/>
+    <rect class="barfg" x="302" y="431" width="0" height="7" rx="4"/>
+    <text class="row-pct" x="548" y="440" text-anchor="end">0%</text>
+    <text class="row-id" x="570" y="440">#—</text>
+  </g>
+  <g class="row" id="row2">
+    <rect class="bg" x="66" y="466" width="628" height="48" rx="14"/>
+    <circle class="dot" cx="92" cy="490" r="14"/>
+    <text class="row-rank" x="92" y="494" text-anchor="middle">3</text>
+    <text class="row-token" x="122" y="496">—</text>
+    <rect class="barbg" x="302" y="487" width="190" height="7" rx="4"/>
+    <rect class="barfg" x="302" y="487" width="0" height="7" rx="4"/>
+    <text class="row-pct" x="548" y="496" text-anchor="end">0%</text>
+    <text class="row-id" x="570" y="496">#—</text>
+  </g>
+</g>
+
+<g id="completeOverlay" display="none">
+  <rect x="66" y="354" width="628" height="126" rx="18" fill="#FFF8F1" stroke="#FF6A00" stroke-width="1.2"/>
+  <circle cx="380" cy="386" r="18" fill="#FF6A00"/>
+  <path d="M 372 386 L 378 392 L 390 380" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="380" y="422" text-anchor="middle" fill="#D65F00" font-size="11" font-weight="760" letter-spacing="1.4" font-family="'SF Mono', Menlo, monospace">GENERATION COMPLETE</text>
+  <text id="finalSentence" x="380" y="452" text-anchor="middle" fill="#111827" font-size="13" font-weight="650">大模型是一种...</text>
+</g>
+
+<g id="resetBtn" class="reset-btn" display="none">
+  <rect class="btn-bg" x="310" y="492" width="140" height="28" rx="14"/>
+  <text x="380" y="511" text-anchor="middle" class="btn-text">↻ RESTART</text>
+</g>
+
+<script type="application/javascript"><![CDATA[
+(function(){
+  // === 4 步条件分支树：第一步选路线，第二步选对象，后续候选继续分叉 ===
+  var FIRST_STEP = [
+    {t:'能理解', p:44, i:12001},
+    {t:'能生成', p:34, i:12002},
+    {t:'会调用', p:22, i:12003}
+  ];
+  var SECOND_STEP = {
+    '能理解': [
+      {t:'自然语言', p:48, i:13001},
+      {t:'业务资料', p:32, i:13002},
+      {t:'复杂问题', p:20, i:13003}
+    ],
+    '能生成': [
+      {t:'文章草稿', p:45, i:13101},
+      {t:'创意图片', p:32, i:13102},
+      {t:'会议纪要', p:23, i:13103}
+    ],
+    '会调用': [
+      {t:'外部工具', p:46, i:13201},
+      {t:'企业资料', p:34, i:13202},
+      {t:'业务系统', p:20, i:13203}
+    ]
+  };
+  var BRANCHES = {
+    '能理解|自然语言': [
+      [ {t:'并抓住意图', p:50, i:14001}, {t:'再提炼要点', p:30, i:14002}, {t:'还能改写表达', p:20, i:14003} ],
+      [ {t:'的理解系统。', p:48, i:15001}, {t:'的沟通助手。', p:32, i:15002}, {t:'的认知工具。', p:20, i:15003} ]
+    ],
+    '能理解|业务资料': [
+      [ {t:'并提取关键信息', p:48, i:14011}, {t:'再整理结构', p:32, i:14012}, {t:'还能发现关联', p:20, i:14013} ],
+      [ {t:'的分析助手。', p:48, i:15011}, {t:'的知识助手。', p:32, i:15012}, {t:'的阅读助手。', p:20, i:15013} ]
+    ],
+    '能理解|复杂问题': [
+      [ {t:'并拆解步骤', p:46, i:14021}, {t:'再比较方案', p:34, i:14022}, {t:'还能给出判断', p:20, i:14023} ],
+      [ {t:'的推理工具。', p:48, i:15021}, {t:'的决策助手。', p:32, i:15022}, {t:'的 AI 模型。', p:20, i:15023} ]
+    ],
+    '能生成|文章草稿': [
+      [ {t:'并按要求改写', p:48, i:14101}, {t:'再补充结构', p:32, i:14102}, {t:'还能调整语气', p:20, i:14103} ],
+      [ {t:'的写作助手。', p:48, i:15101}, {t:'的内容工具。', p:32, i:15102}, {t:'的生成模型。', p:20, i:15103} ]
+    ],
+    '能生成|创意图片': [
+      [ {t:'并形成画面', p:46, i:14111}, {t:'再变化风格', p:34, i:14112}, {t:'还能生成视频', p:20, i:14113} ],
+      [ {t:'的视觉工具。', p:48, i:15111}, {t:'的创作工具。', p:32, i:15112}, {t:'的多模态能力。', p:20, i:15113} ]
+    ],
+    '能生成|会议纪要': [
+      [ {t:'并整理待办', p:48, i:14121}, {t:'再标出责任人', p:32, i:14122}, {t:'还能生成摘要', p:20, i:14123} ],
+      [ {t:'的办公助手。', p:48, i:15121}, {t:'的协作工具。', p:32, i:15122}, {t:'的效率工具。', p:20, i:15123} ]
+    ],
+    '会调用|外部工具': [
+      [ {t:'并查询实时信息', p:48, i:14201}, {t:'再调用计算能力', p:32, i:14202}, {t:'还能生成结果', p:20, i:14203} ],
+      [ {t:'的工具助手。', p:48, i:15201}, {t:'的执行系统。', p:32, i:15202}, {t:'的 Agent 能力。', p:20, i:15203} ]
+    ],
+    '会调用|企业资料': [
+      [ {t:'并检索相关段落', p:48, i:14211}, {t:'再综合回答', p:32, i:14212}, {t:'还能标注来源', p:20, i:14213} ],
+      [ {t:'的知识助手。', p:48, i:15211}, {t:'的问答系统。', p:32, i:15212}, {t:'的资料工具。', p:20, i:15213} ]
+    ],
+    '会调用|业务系统': [
+      [ {t:'并分步骤执行', p:46, i:14221}, {t:'再根据结果调整', p:34, i:14222}, {t:'还能持续推进任务', p:20, i:14223} ],
+      [ {t:'的任务助手。', p:48, i:15221}, {t:'的流程工具。', p:32, i:15222}, {t:'的执行系统。', p:20, i:15223} ]
+    ]
+  };
+  var MAX_TOKENS = 4;
+  var route = null;
+  var objectChoice = null;
+
+  var BASE = '大模型是一种';
+  var step = 0;
+  var acc = BASE;
+  var lastToken = '_ROOT';
+  var bubble = document.getElementById('aiBubble');
+  var aiText = document.getElementById('aiText');
+  var prog = document.getElementById('progressText');
+  var ctxChip = document.getElementById('ctxChip');
+  var complete = document.getElementById('completeOverlay');
+  var finalSent = document.getElementById('finalSentence');
+  var resetBtn = document.getElementById('resetBtn');
+
+  function genCandidates(prev){
+    if (step === 0) return FIRST_STEP;
+    if (step === 1) return SECOND_STEP[route] || SECOND_STEP['能理解'];
+    var key = route + '|' + objectChoice;
+    var branch = BRANCHES[key] || BRANCHES['能理解|自然语言'];
+    return branch[step - 2] || [];
+  }
+
+  function widthOf(t){
+    if (t.length <= 2) return 30;
+    if (t.length === 3) return 45;
+    return 60;
+  }
+
+  function setBubbleText(text){
+    var maxChars = 40;
+    var lines = [];
+    for (var i=0;i<text.length;i+=maxChars) lines.push(text.substring(i, i+maxChars));
+    while (aiText.firstChild) aiText.removeChild(aiText.firstChild);
+    lines.forEach(function(l, idx){
+      var ts = document.createElementNS('http://www.w3.org/2000/svg', 'tspan');
+      ts.setAttribute('x', '104');
+      if (idx > 0) ts.setAttribute('dy', '20');
+      ts.textContent = l;
+      aiText.appendChild(ts);
+    });
+    var bw = lines.length > 1 ? 540 : Math.min(540, Math.max(120, text.length*14 + 30));
+    var bh = 44 + (lines.length - 1) * 20;
+    bubble.setAttribute('width', bw);
+    bubble.setAttribute('height', bh);
+  }
+  function setFinalText(text){
+    var maxChars = 34;
+    var lines = [];
+    for (var i=0;i<text.length;i+=maxChars) lines.push(text.substring(i, i+maxChars));
+    while (finalSent.firstChild) finalSent.removeChild(finalSent.firstChild);
+    lines.forEach(function(l, idx){
+      var ts = document.createElementNS('http://www.w3.org/2000/svg', 'tspan');
+      ts.setAttribute('x', '380');
+      if (idx > 0) ts.setAttribute('dy', '18');
+      ts.textContent = l;
+      finalSent.appendChild(ts);
+    });
+  }
+
+  function renderLayer(prev){
+    var cands = genCandidates(prev);
+    for (var k=0;k<3;k++){
+      var row = document.getElementById('row' + k);
+      if (!row) continue;
+      var item = cands[k];
+      row.setAttribute('class', 'row');
+      if (!item){
+        row.setAttribute('data-token', '');
+        row.setAttribute('data-end', '');
+        row.querySelector('.row-token').textContent = '—';
+        row.querySelector('.row-pct').textContent = '';
+        row.querySelector('.row-id').textContent = '';
+        row.querySelector('.barfg').setAttribute('width', 0);
+        continue;
+      }
+      row.setAttribute('data-token', item.t);
+      row.setAttribute('data-w', widthOf(item.t));
+      row.setAttribute('data-end', item.end ? '1' : '');
+      row.querySelector('.row-token').textContent = item.t;
+      row.querySelector('.row-pct').textContent = item.p + '%';
+      row.querySelector('.row-id').textContent = item.end ? '#STOP' : '#' + item.i;
+      row.querySelector('.barfg').setAttribute('width', 190 * item.p / 100);
+    }
+    ctxChip.textContent = '· P(t│' + (prev === '_ROOT' ? '∅' : prev) + ')';
+    ctxChip.setAttribute('display', 'inline');
+  }
+
+  function finish(){
+    document.getElementById('candLayer').setAttribute('display', 'none');
+    ctxChip.setAttribute('display', 'none');
+    complete.setAttribute('display', 'inline');
+    resetBtn.setAttribute('display', 'inline');
+    setFinalText(acc);
+    prog.textContent = '生成完成 ✓ · ' + step + ' tokens';
+  }
+
+  function pickRow(row){
+    var token = row.getAttribute('data-token');
+    if (!token) return;
+    var isEnd = row.getAttribute('data-end') === '1';
+    row.setAttribute('class', 'row picked');
+    setTimeout(function(){
+      if (isEnd){ finish(); return; }
+      acc = acc + token;
+      if (step === 0) route = token;
+      if (step === 1) objectChoice = token;
+      setBubbleText(acc);
+      lastToken = token;
+      step++;
+      if (step >= MAX_TOKENS) { finish(); return; }
+      prog.textContent = 'TOKEN #' + (step+1) + ' / 4 · 沿着这条路线继续';
+      renderLayer(lastToken);
+    }, 220);
+  }
+
+  function bindRows(){
+    for (var i=0;i<3;i++){
+      (function(r){ r.addEventListener('click', function(){ pickRow(r); }); })(document.getElementById('row' + i));
+    }
+  }
+  function reset(){
+    step = 0;
+    acc = BASE;
+    lastToken = '_ROOT';
+    route = null;
+    objectChoice = null;
+    setBubbleText(BASE);
+    prog.textContent = 'TOKEN #1 / 4 · 选择一条路线';
+    complete.setAttribute('display', 'none');
+    resetBtn.setAttribute('display', 'none');
+    document.getElementById('candLayer').setAttribute('display', 'inline');
+    renderLayer('_ROOT');
+  }
+
+  resetBtn.addEventListener('click', reset);
+  bindRows();
+  setBubbleText(BASE);
+  renderLayer('_ROOT');
+})();
+]]></script>
+
+</svg>

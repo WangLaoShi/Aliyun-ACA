@@ -1,0 +1,136 @@
+<!-- 模式：时序图 (Sequence Diagram) — 工具调用全流程 -->
+<!-- 动画：SMIL 9s 周期循环 + 连续流线动画 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540">
+  <rect width="100%" height="100%" fill="#fff" rx="8"/>
+
+  <!-- ========== Participants (顶部) ========== -->
+
+  <!-- 用户 — 0.3s 入场 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.033;0.078;0.811;0.867;1" dur="9s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="150 80;150 80;150 50;150 50;150 50;150 80" keyTimes="0;0.033;0.078;0.811;0.867;1" dur="9s" repeatCount="indefinite"/>
+    <rect x="-55" y="-18" width="110" height="36" rx="8" fill="#0033CC"/>
+    <text x="0" y="6" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="700" fill="#fff">用户</text>
+  </g>
+
+  <!-- 大模型 — 0.55s 入场 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.061;0.106;0.811;0.867;1" dur="9s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="370 80;370 80;370 50;370 50;370 50;370 80" keyTimes="0;0.061;0.106;0.811;0.867;1" dur="9s" repeatCount="indefinite"/>
+    <rect x="-55" y="-18" width="110" height="36" rx="8" fill="#0033CC"/>
+    <text x="0" y="6" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="700" fill="#fff">大模型</text>
+  </g>
+
+  <!-- 外层程序 — 0.8s 入场 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.089;0.133;0.811;0.867;1" dur="9s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="590 80;590 80;590 50;590 50;590 50;590 80" keyTimes="0;0.089;0.133;0.811;0.867;1" dur="9s" repeatCount="indefinite"/>
+    <rect x="-60" y="-18" width="120" height="36" rx="8" fill="#0033CC"/>
+    <text x="0" y="6" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="700" fill="#fff">外层程序</text>
+  </g>
+
+  <!-- 工具 — 1.05s 入场 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.117;0.161;0.811;0.867;1" dur="9s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="810 80;810 80;810 50;810 50;810 50;810 80" keyTimes="0;0.117;0.161;0.811;0.867;1" dur="9s" repeatCount="indefinite"/>
+    <rect x="-55" y="-18" width="110" height="36" rx="8" fill="#0033CC"/>
+    <text x="0" y="6" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="700" fill="#fff">工具</text>
+  </g>
+
+  <!-- ========== Lifelines ========== -->
+  <line x1="150" y1="68" x2="150" y2="500" stroke="#D0D8F0" stroke-width="1" stroke-dasharray="6,3"/>
+  <line x1="370" y1="68" x2="370" y2="500" stroke="#D0D8F0" stroke-width="1" stroke-dasharray="6,3"/>
+  <line x1="590" y1="68" x2="590" y2="500" stroke="#D0D8F0" stroke-width="1" stroke-dasharray="6,3"/>
+  <line x1="810" y1="68" x2="810" y2="500" stroke="#D0D8F0" stroke-width="1" stroke-dasharray="6,3"/>
+
+  <!-- ========== 阶段标注（左侧） ========== -->
+  <rect x="20" y="100" width="60" height="180" rx="4" fill="#E8EEFF" opacity="0.7"/>
+  <text x="50" y="130" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="700" fill="#0033CC">请求</text>
+  <text x="50" y="148" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="700" fill="#0033CC">阶段</text>
+
+  <rect x="20" y="300" width="60" height="180" rx="4" fill="#E8EEFF" opacity="0.7"/>
+  <text x="50" y="330" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="700" fill="#5E5E5E">响应</text>
+  <text x="50" y="348" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="700" fill="#5E5E5E">阶段</text>
+
+  <!-- ========== 请求阶段 (实线 #0033CC) ========== -->
+
+  <!-- Message 1: 用户 → 大模型: "用户提问" — 0.7s 入场 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.078;0.122;0.811;0.867;1" dur="9s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 30;0 30;0 0;0 0;0 0;0 30" keyTimes="0;0.078;0.122;0.811;0.867;1" dur="9s" repeatCount="indefinite"/>
+    <circle cx="118" cy="150" r="11" fill="#0033CC"/>
+    <text x="118" y="154" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="700" fill="#fff">1</text>
+    <line x1="150" y1="150" x2="312" y2="150" stroke="#0033CC" stroke-width="1.5" stroke-dasharray="6,3">
+      <animate attributeName="stroke-dashoffset" values="0;-16" dur="0.8s" repeatCount="indefinite"/>
+    </line>
+    <polygon points="312,146 320,150 312,154" fill="#0033CC"/>
+    <text x="235" y="140" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="12" font-weight="500" fill="#1a1a1a">用户提问</text>
+  </g>
+
+  <!-- Message 2: 大模型 → 外层程序: "输出 tool_call 指令" — 1.0s 入场 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.111;0.156;0.811;0.867;1" dur="9s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 30;0 30;0 0;0 0;0 0;0 30" keyTimes="0;0.111;0.156;0.811;0.867;1" dur="9s" repeatCount="indefinite"/>
+    <circle cx="338" cy="210" r="11" fill="#0033CC"/>
+    <text x="338" y="214" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="700" fill="#fff">2</text>
+    <line x1="370" y1="210" x2="532" y2="210" stroke="#0033CC" stroke-width="1.5" stroke-dasharray="6,3">
+      <animate attributeName="stroke-dashoffset" values="0;-16" dur="0.8s" repeatCount="indefinite"/>
+    </line>
+    <polygon points="532,206 540,210 532,214" fill="#0033CC"/>
+    <text x="455" y="200" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="12" font-weight="500" fill="#1a1a1a">输出 tool_call 指令</text>
+  </g>
+
+  <!-- Message 3: 外层程序 → 工具: "调用工具" — 1.3s 入场 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.144;0.189;0.811;0.867;1" dur="9s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 30;0 30;0 0;0 0;0 0;0 30" keyTimes="0;0.144;0.189;0.811;0.867;1" dur="9s" repeatCount="indefinite"/>
+    <circle cx="558" cy="270" r="11" fill="#0033CC"/>
+    <text x="558" y="274" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="700" fill="#fff">3</text>
+    <line x1="590" y1="270" x2="772" y2="270" stroke="#0033CC" stroke-width="1.5" stroke-dasharray="6,3">
+      <animate attributeName="stroke-dashoffset" values="0;-16" dur="0.8s" repeatCount="indefinite"/>
+    </line>
+    <polygon points="772,266 780,270 772,274" fill="#0033CC"/>
+    <text x="700" y="260" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="12" font-weight="500" fill="#1a1a1a">调用工具</text>
+  </g>
+
+  <!-- ========== 响应阶段 (虚线 #5E5E5E) ========== -->
+
+  <!-- Message 4: 工具 → 外层程序: "返回数据" — 1.6s 入场 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.178;0.222;0.811;0.867;1" dur="9s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 30;0 30;0 0;0 0;0 0;0 30" keyTimes="0;0.178;0.222;0.811;0.867;1" dur="9s" repeatCount="indefinite"/>
+    <circle cx="558" cy="345" r="11" fill="#5E5E5E"/>
+    <text x="558" y="349" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="700" fill="#fff">4</text>
+    <line x1="810" y1="345" x2="600" y2="345" stroke="#5E5E5E" stroke-width="1.5" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" values="0;16" dur="0.8s" repeatCount="indefinite"/>
+    </line>
+    <polygon points="600,341 592,345 600,349" fill="none" stroke="#5E5E5E" stroke-width="1.2"/>
+    <text x="700" y="335" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="12" fill="#5E5E5E">返回数据</text>
+  </g>
+
+  <!-- Message 5: 外层程序 → 大模型: "回填上下文" — 1.9s 入场 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.211;0.256;0.811;0.867;1" dur="9s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 30;0 30;0 0;0 0;0 0;0 30" keyTimes="0;0.211;0.256;0.811;0.867;1" dur="9s" repeatCount="indefinite"/>
+    <circle cx="338" cy="405" r="11" fill="#5E5E5E"/>
+    <text x="338" y="409" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="700" fill="#fff">5</text>
+    <line x1="590" y1="405" x2="380" y2="405" stroke="#5E5E5E" stroke-width="1.5" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" values="0;16" dur="0.8s" repeatCount="indefinite"/>
+    </line>
+    <polygon points="380,401 372,405 380,409" fill="none" stroke="#5E5E5E" stroke-width="1.2"/>
+    <text x="480" y="395" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="12" fill="#5E5E5E">结果回填上下文</text>
+  </g>
+
+  <!-- Message 6: 大模型 → 用户: "生成回答" — 2.2s 入场 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.244;0.289;0.811;0.867;1" dur="9s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 30;0 30;0 0;0 0;0 0;0 30" keyTimes="0;0.244;0.289;0.811;0.867;1" dur="9s" repeatCount="indefinite"/>
+    <circle cx="118" cy="465" r="11" fill="#5E5E5E"/>
+    <text x="118" y="469" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="700" fill="#fff">6</text>
+    <line x1="370" y1="465" x2="160" y2="465" stroke="#5E5E5E" stroke-width="1.5" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" values="0;16" dur="0.8s" repeatCount="indefinite"/>
+    </line>
+    <polygon points="160,461 152,465 160,469" fill="none" stroke="#5E5E5E" stroke-width="1.2"/>
+    <text x="265" y="455" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="12" fill="#5E5E5E">生成回答</text>
+  </g>
+</svg>

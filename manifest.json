@@ -1,0 +1,1192 @@
+[
+  {
+    "lesson": 1,
+    "title": "认识大模型",
+    "source": "https://edu.aliyun.com/course/3126500/lesson/344730212",
+    "markdown": "01-认识大模型.md",
+    "text_characters": 9610,
+    "images": 25,
+    "media": [
+      {
+        "source": "./阿里云培训中心_files/kfpjeqsirisjyzxrojyf.png",
+        "local": "assets/01/kfpjeqsirisjyzxrojyf.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/ocpohtwqjklakbkgexln.png",
+        "local": "assets/01/ocpohtwqjklakbkgexln.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/seibdwottymozggqfxtu.svg",
+        "local": "assets/01/seibdwottymozggqfxtu.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/pmueyhaokbsdkftmnxtb.svg",
+        "local": "assets/01/pmueyhaokbsdkftmnxtb.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/nyhsewimwlmemkcnisxa.png",
+        "local": "assets/01/nyhsewimwlmemkcnisxa.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/01/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/bwtuonqrzulumztjbgov.svg",
+        "local": "assets/01/bwtuonqrzulumztjbgov.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/01/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/rodlasmyeydripuihato.svg",
+        "local": "assets/01/rodlasmyeydripuihato.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/hldggwtkpmfhxgjhusku.svg",
+        "local": "assets/01/hldggwtkpmfhxgjhusku.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/gpiouyidpteszjouikxz.svg",
+        "local": "assets/01/gpiouyidpteszjouikxz.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/wwegibdhvjpxifafvsbc.svg",
+        "local": "assets/01/wwegibdhvjpxifafvsbc.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/vvehomkhydxgikrndycc.png",
+        "local": "assets/01/vvehomkhydxgikrndycc.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/yturtaheossivnrnnfix.png",
+        "local": "assets/01/yturtaheossivnrnnfix.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/dutxzjscwookzemhjbjx.png",
+        "local": "assets/01/dutxzjscwookzemhjbjx.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/bhkafzysqvnqwkbhvhlm.png",
+        "local": "assets/01/bhkafzysqvnqwkbhvhlm.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/pmubxkanmetnibsmqvrp.png",
+        "local": "assets/01/pmubxkanmetnibsmqvrp.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/sbhusfdsmvpgsvuyshsf.png",
+        "local": "assets/01/sbhusfdsmvpgsvuyshsf.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/mfyohskzuiceercfhtgs.png",
+        "local": "assets/01/mfyohskzuiceercfhtgs.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/eenroiozhgohjgshaqge.png",
+        "local": "assets/01/eenroiozhgohjgshaqge.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/pqceesmtmmpvxqsrovuu.png",
+        "local": "assets/01/pqceesmtmmpvxqsrovuu.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/yonzrbsbaisjmchlqrpw.png",
+        "local": "assets/01/yonzrbsbaisjmchlqrpw.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/ikpflsuxwtimejeduslz.png",
+        "local": "assets/01/ikpflsuxwtimejeduslz.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/ncnfzgqbbqusbrnqxeaa.png",
+        "local": "assets/01/ncnfzgqbbqusbrnqxeaa.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/phccbhtnsamuwkvaarfm.png",
+        "local": "assets/01/phccbhtnsamuwkvaarfm.png",
+        "status": "saved"
+      },
+      {
+        "source": "https://scms-prod-sh-public.oss-cn-shanghai.aliyuncs.com/course_picture/zldvjiynhkrqreeujtdh.mp4",
+        "local": "assets/01/2e8931307efb.mp4",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/O1CN01S1c2Gf1GAbeVTXZ6i_!!6000000000582-55-tps-760-620.html",
+        "local": "assets/01/O1CN01S1c2Gf1GAbeVTXZ6i_!!6000000000582-55-tps-760-620.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/O1CN01B25clP1kitmRYCgf7_!!6000000004718-55-tps-980-720.html",
+        "local": "assets/01/O1CN01B25clP1kitmRYCgf7_!!6000000004718-55-tps-980-720.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/O1CN01eMbmAM1SguzDq9G5s_!!6000000002277-55-tps-960-540.html",
+        "local": "assets/01/O1CN01eMbmAM1SguzDq9G5s_!!6000000002277-55-tps-960-540.svg",
+        "status": "saved"
+      },
+      {
+        "source": "https://scms-prod-sh-public.oss-cn-shanghai.aliyuncs.com/course_picture/vinimtoajrugcsicuwbw.mp4",
+        "local": "assets/01/b02442f32482.mp4",
+        "status": "saved"
+      },
+      {
+        "source": "https://cloud.video.taobao.com/vod/0u74nAldXjkph5yoWP3THy_0nIMvrTtxTZYAmEpI3MU.mp4",
+        "local": "assets/01/4cfa72f4398b.mp4",
+        "status": "saved"
+      },
+      {
+        "source": "https://img.alicdn.com/imgextra/i3/O1CN01S1c2Gf1GAbeVTXZ6i_!!6000000000582-55-tps-760-620.svg",
+        "local": "assets/01/018bed50b0f8.svg",
+        "status": "saved"
+      },
+      {
+        "source": "https://img.alicdn.com/imgextra/i3/O1CN01S1c2Gf1GAbeVTXZ6i_!!6000000000582-55-tps-760-620.svg",
+        "local": "assets/01/018bed50b0f8.svg",
+        "status": "saved"
+      },
+      {
+        "source": "https://img.alicdn.com/imgextra/i4/O1CN01B25clP1kitmRYCgf7_!!6000000004718-55-tps-980-720.svg",
+        "local": "assets/01/f79e7fe7f5a2.svg",
+        "status": "saved"
+      },
+      {
+        "source": "https://img.alicdn.com/imgextra/i4/O1CN01B25clP1kitmRYCgf7_!!6000000004718-55-tps-980-720.svg",
+        "local": "assets/01/f79e7fe7f5a2.svg",
+        "status": "saved"
+      },
+      {
+        "source": "https://img.alicdn.com/imgextra/i3/O1CN01eMbmAM1SguzDq9G5s_!!6000000002277-55-tps-960-540.svg",
+        "local": "assets/01/1500f189918a.svg",
+        "status": "saved"
+      },
+      {
+        "source": "https://img.alicdn.com/imgextra/i3/O1CN01eMbmAM1SguzDq9G5s_!!6000000002277-55-tps-960-540.svg",
+        "local": "assets/01/1500f189918a.svg",
+        "status": "saved"
+      }
+    ]
+  },
+  {
+    "lesson": 2,
+    "title": "大模型的典型应用场景",
+    "source": "https://edu.aliyun.com/course/3126500/lesson/344730265",
+    "markdown": "02-大模型的典型应用场景.md",
+    "text_characters": 4660,
+    "images": 14,
+    "media": [
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/02/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/jrdgbrwnhfvqvfdruyam.png",
+        "local": "assets/02/jrdgbrwnhfvqvfdruyam.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/02/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/gqcimsiohriffhhsvmhh.jpeg",
+        "local": "assets/02/gqcimsiohriffhhsvmhh.jpg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/02/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/hufrskhwzkksqylvsazh.jpeg",
+        "local": "assets/02/hufrskhwzkksqylvsazh.jpg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/czalldanayltzdqvvcun.svg",
+        "local": "assets/02/czalldanayltzdqvvcun.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/ikihvppihvoipnzqociu.png",
+        "local": "assets/02/ikihvppihvoipnzqociu.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/e93f4922-6bb4-48b1-8f17-9b87f36a957c",
+        "local": "assets/02/e93f4922-6bb4-48b1-8f17-9b87f36a957c.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/ece08750-0654-4bac-a74d-6ccd08b00b3d",
+        "local": "assets/02/ece08750-0654-4bac-a74d-6ccd08b00b3d.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/dpnmhhjdxfavfnhsbrwg.png",
+        "local": "assets/02/dpnmhhjdxfavfnhsbrwg.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/cmjqfxjsdmvzfwscejra.gif",
+        "local": "assets/02/cmjqfxjsdmvzfwscejra.gif",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/oxrnobywvgjcmcwtduyt.svg",
+        "local": "assets/02/oxrnobywvgjcmcwtduyt.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/ohkwidoppwwsslizuekc.png",
+        "local": "assets/02/ohkwidoppwwsslizuekc.png",
+        "status": "saved"
+      }
+    ]
+  },
+  {
+    "lesson": 3,
+    "title": "通过优化输入来提升回答质量",
+    "source": "https://edu.aliyun.com/course/3126500/lesson/344730348",
+    "markdown": "03-通过优化输入来提升回答质量.md",
+    "text_characters": 16821,
+    "images": 33,
+    "media": [
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/635c44ed-78f1-44f9-9922-65083f5a60b6.svg",
+        "local": "assets/03/635c44ed-78f1-44f9-9922-65083f5a60b6.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/0a4be884-d5de-4684-8d29-9b4162e7cc7a.svg",
+        "local": "assets/03/0a4be884-d5de-4684-8d29-9b4162e7cc7a.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/5c5cc36e-7730-4894-ab21-9529517034f2.svg",
+        "local": "assets/03/5c5cc36e-7730-4894-ab21-9529517034f2.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/19ebc787-57c2-4d0f-bfea-41c5fe128333.svg",
+        "local": "assets/03/19ebc787-57c2-4d0f-bfea-41c5fe128333.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/1a1b73f2-303f-4679-8297-278c9f6df7e4.svg",
+        "local": "assets/03/1a1b73f2-303f-4679-8297-278c9f6df7e4.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/a42e7aa7-6e49-4f0d-8b69-a9de153b9011.svg",
+        "local": "assets/03/a42e7aa7-6e49-4f0d-8b69-a9de153b9011.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/ce5c61fb-0fe1-4ec9-ba98-bbe5216165eb.svg",
+        "local": "assets/03/ce5c61fb-0fe1-4ec9-ba98-bbe5216165eb.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/6d158a35-60db-4168-abb3-7978762ec5bb.svg",
+        "local": "assets/03/6d158a35-60db-4168-abb3-7978762ec5bb.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./:Users:luosen:Documents:GitHub:Aliyun-ACA:course-3126500:source:03_files/03504553-81b7-44d0-a9f1-37460d0bbb22.svg",
+        "local": "assets/03/03504553-81b7-44d0-a9f1-37460d0bbb22.svg",
+        "status": "saved"
+      }
+    ]
+  },
+  {
+    "lesson": 4,
+    "title": "通过 RAG 增强大模型回答原本无法回答的问题",
+    "source": "https://edu.aliyun.com/course/3126500/lesson/344730351",
+    "markdown": "04-通过 RAG 增强大模型回答原本无法回答的问题.md",
+    "text_characters": 15612,
+    "images": 36,
+    "media": [
+      {
+        "source": "./阿里云培训中心_files/9dffaff3-34d6-42da-90fd-ccea6ed7c933.png",
+        "local": "assets/04/9dffaff3-34d6-42da-90fd-ccea6ed7c933.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/06a95093-6200-42e9-a4ce-2258d3675830.png",
+        "local": "assets/04/06a95093-6200-42e9-a4ce-2258d3675830.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/hpufxzixuycpehchjvtz.svg",
+        "local": "assets/04/hpufxzixuycpehchjvtz.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/cfbbbb6c-8f03-4c18-bf46-844eee5673da.png",
+        "local": "assets/04/cfbbbb6c-8f03-4c18-bf46-844eee5673da.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/1db4f97e-1063-4505-90c0-2230a3f7e6cf.png",
+        "local": "assets/04/1db4f97e-1063-4505-90c0-2230a3f7e6cf.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/wiehmiiupbxsnfpdtvfw.png",
+        "local": "assets/04/wiehmiiupbxsnfpdtvfw.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/ttyzlxcffpsyavztflrx.png",
+        "local": "assets/04/ttyzlxcffpsyavztflrx.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/c08a45ee-01ba-42b4-bc79-72d32c91b925.png",
+        "local": "assets/04/c08a45ee-01ba-42b4-bc79-72d32c91b925.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/f9778ccf-5a15-401e-8f7e-a784c8e1dc79.png",
+        "local": "assets/04/f9778ccf-5a15-401e-8f7e-a784c8e1dc79.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/262a86b0-2d29-4992-8a12-a1709903e39b.png",
+        "local": "assets/04/262a86b0-2d29-4992-8a12-a1709903e39b.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/95e6fa1d-9568-4130-a9fa-d261a0680323.png",
+        "local": "assets/04/95e6fa1d-9568-4130-a9fa-d261a0680323.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/b9fb9300-7da7-4c2f-a77d-53762a6e405f.png",
+        "local": "assets/04/b9fb9300-7da7-4c2f-a77d-53762a6e405f.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/yeajluiniebkzkxikbmc.png",
+        "local": "assets/04/yeajluiniebkzkxikbmc.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/wtacximmyyuznsvciwtx.5eecdaf48460cde5",
+        "local": "assets/04/wtacximmyyuznsvciwtx.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/hyrkvsxuwacoykjvqqru.svg",
+        "local": "assets/04/hyrkvsxuwacoykjvqqru.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/sjomrdyfkxmwisqzrpxk.svg",
+        "local": "assets/04/sjomrdyfkxmwisqzrpxk.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/alavdnxlkmpcwyhhrooa.5eecdaf48460cde5",
+        "local": "assets/04/alavdnxlkmpcwyhhrooa.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/bwewblaprcwziasidxqv.svg",
+        "local": "assets/04/bwewblaprcwziasidxqv.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/crgehfnlmydsrdtdzlbt.png",
+        "local": "assets/04/crgehfnlmydsrdtdzlbt.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/zprtzykuxczogdcicodx.png",
+        "local": "assets/04/zprtzykuxczogdcicodx.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/vxtyhvovjwxlzjipugyc.svg",
+        "local": "assets/04/vxtyhvovjwxlzjipugyc.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/zrossvhlsbbjotiqovmy.svg",
+        "local": "assets/04/zrossvhlsbbjotiqovmy.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/zxwpacklalincvufipnv.5eecdaf48460cde5",
+        "local": "assets/04/zxwpacklalincvufipnv.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/oypztmapzoyuwnwkbyvi.5eecdaf48460cde5",
+        "local": "assets/04/oypztmapzoyuwnwkbyvi.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/cojuzdbqtduxtuvmdurp.5eecdaf48460cde5",
+        "local": "assets/04/cojuzdbqtduxtuvmdurp.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/ytpwfoqikkdoooxoiueq.5eecdaf48460cde5",
+        "local": "assets/04/ytpwfoqikkdoooxoiueq.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/tsabsixobwntjulnbuvp.5eecdaf48460cde5",
+        "local": "assets/04/tsabsixobwntjulnbuvp.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/ytewinmuaqyhpualnmto.png",
+        "local": "assets/04/ytewinmuaqyhpualnmto.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/3e2ac5b1-a874-4578-ad18-df7a39894a21.png",
+        "local": "assets/04/3e2ac5b1-a874-4578-ad18-df7a39894a21.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/haaaamejuatfpwdvrcxi.5eecdaf48460cde5",
+        "local": "assets/04/haaaamejuatfpwdvrcxi.jpg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/0626ece7-5748-4fce-a0de-0b3db820a2f3.png",
+        "local": "assets/04/0626ece7-5748-4fce-a0de-0b3db820a2f3.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/e22869b4-2133-4939-a4ea-34838bd8b31c.png",
+        "local": "assets/04/e22869b4-2133-4939-a4ea-34838bd8b31c.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/czhnfnukcpeckyyczooq.png",
+        "local": "assets/04/czhnfnukcpeckyyczooq.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/ohbgrjdltvysbxtzpjrx.png",
+        "local": "assets/04/ohbgrjdltvysbxtzpjrx.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/alvyvfllzvcnfdxdcgdd.5eecdaf48460cde5",
+        "local": "assets/04/alvyvfllzvcnfdxdcgdd.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/ilqjpgijuovqvlceywaq.5eecdaf48460cde5",
+        "local": "assets/04/ilqjpgijuovqvlceywaq.png",
+        "status": "saved"
+      }
+    ]
+  },
+  {
+    "lesson": 5,
+    "title": "通过微调改善大模型在垂直领域的表现",
+    "source": "https://edu.aliyun.com/course/3126500/lesson/342510265",
+    "markdown": "05-通过微调改善大模型在垂直领域的表现.md",
+    "text_characters": 12678,
+    "images": 13,
+    "media": [
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/05/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/05/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/05/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/05/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/epxxogaatbmoddmunxbg.png",
+        "local": "assets/05/epxxogaatbmoddmunxbg.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/keheztoglncyubteqsvs.png",
+        "local": "assets/05/keheztoglncyubteqsvs.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/srdycouxtbdczirvrfvx.png",
+        "local": "assets/05/srdycouxtbdczirvrfvx.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/epjpowrlzfcqbqcdswxi.png",
+        "local": "assets/05/epjpowrlzfcqbqcdswxi.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/vnivayupcwpxxeimkkdk.png",
+        "local": "assets/05/vnivayupcwpxxeimkkdk.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/haxtjvlocxljprqslzet.png",
+        "local": "assets/05/haxtjvlocxljprqslzet.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/ksaqoypkqkhskoyuwddf.png",
+        "local": "assets/05/ksaqoypkqkhskoyuwddf.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/anomjdrjsnumltxhzdbj.png",
+        "local": "assets/05/anomjdrjsnumltxhzdbj.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/venenmvjpedtymqckuqr.png",
+        "local": "assets/05/venenmvjpedtymqckuqr.png",
+        "status": "saved"
+      },
+      {
+        "source": "https://scms-prod-sh-public.oss-cn-shanghai.aliyuncs.com/course_picture/rcxvuebqhetokqikjrmv.mp4",
+        "local": "assets/05/f6e69ca7b3bc.mp4",
+        "status": "saved"
+      }
+    ]
+  },
+  {
+    "lesson": 6,
+    "title": "安装桌面 Agent，开始用它干活",
+    "source": "https://edu.aliyun.com/course/3126500/lesson/344730415",
+    "markdown": "06-安装桌面 Agent，开始用它干活.md",
+    "text_characters": 6993,
+    "images": 25,
+    "media": [
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/O1CN01lNgDuDXAyEE4Mtkp_!!6000000001450-2-tps-2152-731.png",
+        "local": "assets/06/O1CN01lNgDuDXAyEE4Mtkp_!!6000000001450-2-tps-2152-731.jpg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/O1CN017lCcZg1dwualbE3Ze_!!6000000003801-2-tps-1792-608.png",
+        "local": "assets/06/O1CN017lCcZg1dwualbE3Ze_!!6000000003801-2-tps-1792-608.jpg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/O1CN011ZMGwH29OcdzE9xFD_!!6000000008058-2-tps-1792-608.png",
+        "local": "assets/06/O1CN011ZMGwH29OcdzE9xFD_!!6000000008058-2-tps-1792-608.jpg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/O1CN01LUFzpt1LtYc4KYIUp_!!6000000001357-2-tps-1792-608.png",
+        "local": "assets/06/O1CN01LUFzpt1LtYc4KYIUp_!!6000000001357-2-tps-1792-608.jpg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/jwqcipulixnrunkgwgsg.png",
+        "local": "assets/06/jwqcipulixnrunkgwgsg.png",
+        "status": "saved"
+      }
+    ]
+  },
+  {
+    "lesson": 7,
+    "title": "让 Agent 接入知识库和工具",
+    "source": "https://edu.aliyun.com/course/3126500/lesson/344730479",
+    "markdown": "07-让 Agent 接入知识库和工具.md",
+    "text_characters": 7226,
+    "images": 16,
+    "media": [
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/07/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/teewauldmiptdrsftxrw.png",
+        "local": "assets/07/teewauldmiptdrsftxrw.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/07/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/07/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/07/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/alxgcigrtvprbzrceain.png",
+        "local": "assets/07/alxgcigrtvprbzrceain.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/lhsvkhtxxtxmlsqukzne.png",
+        "local": "assets/07/lhsvkhtxxtxmlsqukzne.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/egpehthlfeckxhhfvuia.png",
+        "local": "assets/07/egpehthlfeckxhhfvuia.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/pxhlylkphrvkwwjfhwbn.svg",
+        "local": "assets/07/pxhlylkphrvkwwjfhwbn.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/07/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/sdkwbncjtnogfycnrxyp.png",
+        "local": "assets/07/sdkwbncjtnogfycnrxyp.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/07/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/07/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/0ca0bfe0-bb60-48d8-a00a-f5f8e7f94d43",
+        "local": "assets/07/0ca0bfe0-bb60-48d8-a00a-f5f8e7f94d43.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/7349cfa4-3731-46a2-a819-a5bebeccefe7",
+        "local": "assets/07/7349cfa4-3731-46a2-a819-a5bebeccefe7.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/vxkanfeljmbzfxyppsxr.png",
+        "local": "assets/07/vxkanfeljmbzfxyppsxr.png",
+        "status": "saved"
+      }
+    ]
+  },
+  {
+    "lesson": 8,
+    "title": "用 Skill 固化你的工作方法",
+    "source": "https://edu.aliyun.com/course/3126500/lesson/344730529",
+    "markdown": "08-用 Skill 固化你的工作方法.md",
+    "text_characters": 9122,
+    "images": 19,
+    "media": [
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/08/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/08/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/fhtmgqaxbwwuopkpwmfn.svg",
+        "local": "assets/08/fhtmgqaxbwwuopkpwmfn.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/O1CN01YC7Ovl1wvW5xjnwHB_!!6000000006370-0-tps-1750-942.jpg",
+        "local": "assets/08/O1CN01YC7Ovl1wvW5xjnwHB_!!6000000006370-0-tps-1750-942.jpg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/08/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/O1CN01JdIMjR8lVrH31JSi_!!6000000001255-0-tps-1488-664.jpg",
+        "local": "assets/08/O1CN01JdIMjR8lVrH31JSi_!!6000000001255-0-tps-1488-664.jpg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/08/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/08/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/08/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/08/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/hgyqrsmlscltrtavppgy.svg",
+        "local": "assets/08/hgyqrsmlscltrtavppgy.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/08/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/08/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/08/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/08/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/08/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/08/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/08/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/08/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      }
+    ]
+  },
+  {
+    "lesson": 9,
+    "title": "给 Agent 加一道自检闭环",
+    "source": "https://edu.aliyun.com/course/3126500/lesson/344730560",
+    "markdown": "09-给 Agent 加一道自检闭环.md",
+    "text_characters": 8999,
+    "images": 14,
+    "media": [
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/09/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/09/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/09/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/09/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/09/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/09/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/O1CN017Ngd7V1GJJBhMMJK1_!!6000000000601-2-tps-1792-608.png",
+        "local": "assets/09/O1CN017Ngd7V1GJJBhMMJK1_!!6000000000601-2-tps-1792-608.jpg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/O1CN0185HJAo1zqQXOR7aHx_!!6000000006765-2-tps-1792-608.png",
+        "local": "assets/09/O1CN0185HJAo1zqQXOR7aHx_!!6000000006765-2-tps-1792-608.jpg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/laaofzpvjyfbnkoqicnt.svg",
+        "local": "assets/09/laaofzpvjyfbnkoqicnt.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/igwmftvzzuwdynuvryae.svg",
+        "local": "assets/09/igwmftvzzuwdynuvryae.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/09/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/09/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/09/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/09/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      }
+    ]
+  },
+  {
+    "lesson": 10,
+    "title": "大模型应用的安全合规",
+    "source": "https://edu.aliyun.com/course/3126500/lesson/344730630",
+    "markdown": "10-大模型应用的安全合规.md",
+    "text_characters": 4840,
+    "images": 6,
+    "media": [
+      {
+        "source": "./阿里云培训中心_files/gxdpvtwrrfzfyyypairm.svg",
+        "local": "assets/10/gxdpvtwrrfzfyyypairm.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/10/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/grwpxhstnaqomimapmdu.svg",
+        "local": "assets/10/grwpxhstnaqomimapmdu.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/yjkifgcausbouqfjqblu.svg",
+        "local": "assets/10/yjkifgcausbouqfjqblu.svg",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "local": "assets/10/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/wnuzwznscfazrufcirjk.png",
+        "local": "assets/10/wnuzwznscfazrufcirjk.png",
+        "status": "saved"
+      }
+    ]
+  },
+  {
+    "lesson": 11,
+    "title": "学习总结",
+    "source": "https://edu.aliyun.com/course/3126500/lesson/344730650",
+    "markdown": "11-学习总结.md",
+    "text_characters": 7343,
+    "images": 2,
+    "media": [
+      {
+        "source": "./阿里云培训中心_files/qwjejpgrqfjzfxvcgefv.png",
+        "local": "assets/11/qwjejpgrqfjzfxvcgefv.png",
+        "status": "saved"
+      },
+      {
+        "source": "./阿里云培训中心_files/jupdvkhhldncmpqjmlat.png",
+        "local": "assets/11/jupdvkhhldncmpqjmlat.png",
+        "status": "saved"
+      }
+    ]
+  }
+]

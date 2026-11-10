@@ -1,0 +1,1242 @@
+{
+  "files_checked": 135,
+  "counts": {
+    "svg": 38,
+    "video": 4,
+    "image": 93
+  },
+  "markdown_files": 11,
+  "local_references": 216,
+  "errors": [],
+  "lessons": [
+    {
+      "file": "01-认识大模型.md",
+      "local_references": 37,
+      "missing": [],
+      "omitted_text_segments": []
+    },
+    {
+      "file": "02-大模型的典型应用场景.md",
+      "local_references": 14,
+      "missing": [],
+      "omitted_text_segments": []
+    },
+    {
+      "file": "03-通过优化输入来提升回答质量.md",
+      "local_references": 33,
+      "missing": [],
+      "omitted_text_segments": []
+    },
+    {
+      "file": "04-通过 RAG 增强大模型回答原本无法回答的问题.md",
+      "local_references": 36,
+      "missing": [],
+      "omitted_text_segments": []
+    },
+    {
+      "file": "05-通过微调改善大模型在垂直领域的表现.md",
+      "local_references": 14,
+      "missing": [],
+      "omitted_text_segments": []
+    },
+    {
+      "file": "06-安装桌面 Agent，开始用它干活.md",
+      "local_references": 25,
+      "missing": [],
+      "omitted_text_segments": []
+    },
+    {
+      "file": "07-让 Agent 接入知识库和工具.md",
+      "local_references": 16,
+      "missing": [],
+      "omitted_text_segments": []
+    },
+    {
+      "file": "08-用 Skill 固化你的工作方法.md",
+      "local_references": 19,
+      "missing": [],
+      "omitted_text_segments": []
+    },
+    {
+      "file": "09-给 Agent 加一道自检闭环.md",
+      "local_references": 14,
+      "missing": [],
+      "omitted_text_segments": []
+    },
+    {
+      "file": "10-大模型应用的安全合规.md",
+      "local_references": 6,
+      "missing": [],
+      "omitted_text_segments": []
+    },
+    {
+      "file": "11-学习总结.md",
+      "local_references": 2,
+      "missing": [],
+      "omitted_text_segments": []
+    }
+  ],
+  "resources": [
+    {
+      "path": "assets/01/018bed50b0f8.svg",
+      "bytes": 16097,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/1500f189918a.svg",
+      "bytes": 20231,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/2e8931307efb.mp4",
+      "bytes": 2214817,
+      "kind": "video",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "10.000000"
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/4cfa72f4398b.mp4",
+      "bytes": 2214817,
+      "kind": "video",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "10.000000"
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/O1CN01B25clP1kitmRYCgf7_!!6000000004718-55-tps-980-720.svg",
+      "bytes": 9420533,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/O1CN01S1c2Gf1GAbeVTXZ6i_!!6000000000582-55-tps-760-620.svg",
+      "bytes": 16324,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/O1CN01eMbmAM1SguzDq9G5s_!!6000000002277-55-tps-960-540.svg",
+      "bytes": 70816,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+      "bytes": 490,
+      "kind": "image",
+      "format": "PNG",
+      "width": 26,
+      "height": 30,
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/b02442f32482.mp4",
+      "bytes": 11927975,
+      "kind": "video",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720
+          }
+        ],
+        "format": {
+          "duration": "5.366667"
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/bhkafzysqvnqwkbhvhlm.png",
+      "bytes": 1220552,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1950,
+      "height": 1260,
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/bwtuonqrzulumztjbgov.svg",
+      "bytes": 4097,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/dutxzjscwookzemhjbjx.png",
+      "bytes": 667581,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1572,
+      "height": 1478,
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/eenroiozhgohjgshaqge.png",
+      "bytes": 3372227,
+      "kind": "image",
+      "format": "PNG",
+      "width": 3390,
+      "height": 1844,
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/f79e7fe7f5a2.svg",
+      "bytes": 9417655,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/gpiouyidpteszjouikxz.svg",
+      "bytes": 11287,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/hldggwtkpmfhxgjhusku.svg",
+      "bytes": 9676,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/ikpflsuxwtimejeduslz.png",
+      "bytes": 3538728,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2930,
+      "height": 1382,
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/kfpjeqsirisjyzxrojyf.png",
+      "bytes": 1139719,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024,
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/mfyohskzuiceercfhtgs.png",
+      "bytes": 1570871,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/ncnfzgqbbqusbrnqxeaa.png",
+      "bytes": 2903017,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2256,
+      "height": 1098,
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/nyhsewimwlmemkcnisxa.png",
+      "bytes": 1591777,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2018,
+      "height": 1466,
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/ocpohtwqjklakbkgexln.png",
+      "bytes": 967851,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1056,
+      "height": 1334,
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/phccbhtnsamuwkvaarfm.png",
+      "bytes": 2550413,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2670,
+      "height": 1496,
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/pmubxkanmetnibsmqvrp.png",
+      "bytes": 1901109,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024,
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/pmueyhaokbsdkftmnxtb.svg",
+      "bytes": 5498,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/pqceesmtmmpvxqsrovuu.png",
+      "bytes": 1302898,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1825,
+      "height": 932,
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/rodlasmyeydripuihato.svg",
+      "bytes": 8090,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/sbhusfdsmvpgsvuyshsf.png",
+      "bytes": 1443387,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1594,
+      "height": 664,
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/seibdwottymozggqfxtu.svg",
+      "bytes": 1901700,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/vvehomkhydxgikrndycc.png",
+      "bytes": 1631681,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1474,
+      "height": 1676,
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/wwegibdhvjpxifafvsbc.svg",
+      "bytes": 6097,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/yonzrbsbaisjmchlqrpw.png",
+      "bytes": 3119578,
+      "kind": "image",
+      "format": "PNG",
+      "width": 3426,
+      "height": 1708,
+      "status": "passed"
+    },
+    {
+      "path": "assets/01/yturtaheossivnrnnfix.png",
+      "bytes": 415167,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1430,
+      "height": 506,
+      "status": "passed"
+    },
+    {
+      "path": "assets/02/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+      "bytes": 490,
+      "kind": "image",
+      "format": "PNG",
+      "width": 26,
+      "height": 30,
+      "status": "passed"
+    },
+    {
+      "path": "assets/02/cmjqfxjsdmvzfwscejra.gif",
+      "bytes": 19362772,
+      "kind": "image",
+      "format": "GIF",
+      "width": 1280,
+      "height": 842,
+      "status": "passed"
+    },
+    {
+      "path": "assets/02/czalldanayltzdqvvcun.svg",
+      "bytes": 9669,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/02/dpnmhhjdxfavfnhsbrwg.png",
+      "bytes": 1200379,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2224,
+      "height": 872,
+      "status": "passed"
+    },
+    {
+      "path": "assets/02/e93f4922-6bb4-48b1-8f17-9b87f36a957c.png",
+      "bytes": 2253951,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2492,
+      "height": 1802,
+      "status": "passed"
+    },
+    {
+      "path": "assets/02/ece08750-0654-4bac-a74d-6ccd08b00b3d.png",
+      "bytes": 818826,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1224,
+      "height": 1322,
+      "status": "passed"
+    },
+    {
+      "path": "assets/02/gqcimsiohriffhhsvmhh.jpg",
+      "bytes": 213437,
+      "kind": "image",
+      "format": "JPEG",
+      "width": 1498,
+      "height": 862,
+      "status": "passed"
+    },
+    {
+      "path": "assets/02/hufrskhwzkksqylvsazh.jpg",
+      "bytes": 324199,
+      "kind": "image",
+      "format": "JPEG",
+      "width": 1504,
+      "height": 1050,
+      "status": "passed"
+    },
+    {
+      "path": "assets/02/ikihvppihvoipnzqociu.png",
+      "bytes": 1207697,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "status": "passed"
+    },
+    {
+      "path": "assets/02/jrdgbrwnhfvqvfdruyam.png",
+      "bytes": 594324,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1055,
+      "height": 787,
+      "status": "passed"
+    },
+    {
+      "path": "assets/02/ohkwidoppwwsslizuekc.png",
+      "bytes": 1267655,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1482,
+      "height": 816,
+      "status": "passed"
+    },
+    {
+      "path": "assets/02/oxrnobywvgjcmcwtduyt.svg",
+      "bytes": 6057,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/03/03504553-81b7-44d0-a9f1-37460d0bbb22.svg",
+      "bytes": 3406,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/03/0a4be884-d5de-4684-8d29-9b4162e7cc7a.svg",
+      "bytes": 6037,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/03/19ebc787-57c2-4d0f-bfea-41c5fe128333.svg",
+      "bytes": 3613,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/03/1a1b73f2-303f-4679-8297-278c9f6df7e4.svg",
+      "bytes": 7191,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/03/5c5cc36e-7730-4894-ab21-9529517034f2.svg",
+      "bytes": 4863,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/03/635c44ed-78f1-44f9-9922-65083f5a60b6.svg",
+      "bytes": 4159,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/03/6d158a35-60db-4168-abb3-7978762ec5bb.svg",
+      "bytes": 5453,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/03/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+      "bytes": 490,
+      "kind": "image",
+      "format": "PNG",
+      "width": 26,
+      "height": 30,
+      "status": "passed"
+    },
+    {
+      "path": "assets/03/a42e7aa7-6e49-4f0d-8b69-a9de153b9011.svg",
+      "bytes": 7243,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/03/ce5c61fb-0fe1-4ec9-ba98-bbe5216165eb.svg",
+      "bytes": 27338,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/0626ece7-5748-4fce-a0de-0b3db820a2f3.png",
+      "bytes": 134125,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2628,
+      "height": 1224,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/06a95093-6200-42e9-a4ce-2258d3675830.png",
+      "bytes": 167469,
+      "kind": "image",
+      "format": "PNG",
+      "width": 3314,
+      "height": 734,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/1db4f97e-1063-4505-90c0-2230a3f7e6cf.png",
+      "bytes": 3329436,
+      "kind": "image",
+      "format": "PNG",
+      "width": 3428,
+      "height": 1724,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/262a86b0-2d29-4992-8a12-a1709903e39b.png",
+      "bytes": 222967,
+      "kind": "image",
+      "format": "PNG",
+      "width": 3162,
+      "height": 1324,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/3e2ac5b1-a874-4578-ad18-df7a39894a21.png",
+      "bytes": 715380,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2064,
+      "height": 702,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/95e6fa1d-9568-4130-a9fa-d261a0680323.png",
+      "bytes": 98248,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2544,
+      "height": 702,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/9dffaff3-34d6-42da-90fd-ccea6ed7c933.png",
+      "bytes": 130325,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2956,
+      "height": 734,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/alavdnxlkmpcwyhhrooa.png",
+      "bytes": 270712,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2022,
+      "height": 1224,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/alvyvfllzvcnfdxdcgdd.png",
+      "bytes": 968604,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1962,
+      "height": 848,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/b9fb9300-7da7-4c2f-a77d-53762a6e405f.png",
+      "bytes": 39867,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2088,
+      "height": 332,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/bwewblaprcwziasidxqv.svg",
+      "bytes": 44687,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/c08a45ee-01ba-42b4-bc79-72d32c91b925.png",
+      "bytes": 474579,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1822,
+      "height": 1076,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/cfbbbb6c-8f03-4c18-bf46-844eee5673da.png",
+      "bytes": 237632,
+      "kind": "image",
+      "format": "PNG",
+      "width": 3416,
+      "height": 1606,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/cojuzdbqtduxtuvmdurp.png",
+      "bytes": 135758,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1435,
+      "height": 1418,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/crgehfnlmydsrdtdzlbt.png",
+      "bytes": 224746,
+      "kind": "image",
+      "format": "PNG",
+      "width": 3226,
+      "height": 970,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/czhnfnukcpeckyyczooq.png",
+      "bytes": 213818,
+      "kind": "image",
+      "format": "PNG",
+      "width": 3308,
+      "height": 1124,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/e22869b4-2133-4939-a4ea-34838bd8b31c.png",
+      "bytes": 48490,
+      "kind": "image",
+      "format": "PNG",
+      "width": 700,
+      "height": 180,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/f9778ccf-5a15-401e-8f7e-a784c8e1dc79.png",
+      "bytes": 732310,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2558,
+      "height": 900,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/haaaamejuatfpwdvrcxi.jpg",
+      "bytes": 121109,
+      "kind": "image",
+      "format": "JPEG",
+      "width": 1276,
+      "height": 1102,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/hpufxzixuycpehchjvtz.svg",
+      "bytes": 15409,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/hyrkvsxuwacoykjvqqru.svg",
+      "bytes": 8757,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/ilqjpgijuovqvlceywaq.png",
+      "bytes": 754880,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1965,
+      "height": 630,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/ohbgrjdltvysbxtzpjrx.png",
+      "bytes": 125243,
+      "kind": "image",
+      "format": "PNG",
+      "width": 4355,
+      "height": 899,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/oypztmapzoyuwnwkbyvi.png",
+      "bytes": 59477,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1548,
+      "height": 619,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/sjomrdyfkxmwisqzrpxk.svg",
+      "bytes": 148257,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/tsabsixobwntjulnbuvp.png",
+      "bytes": 107304,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2195,
+      "height": 1043,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/ttyzlxcffpsyavztflrx.png",
+      "bytes": 85656,
+      "kind": "image",
+      "format": "PNG",
+      "width": 3226,
+      "height": 722,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/vxtyhvovjwxlzjipugyc.svg",
+      "bytes": 10772,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/wiehmiiupbxsnfpdtvfw.png",
+      "bytes": 314918,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2536,
+      "height": 1714,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/wtacximmyyuznsvciwtx.png",
+      "bytes": 466659,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2630,
+      "height": 860,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/yeajluiniebkzkxikbmc.png",
+      "bytes": 761956,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2800,
+      "height": 1990,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/ytewinmuaqyhpualnmto.png",
+      "bytes": 284975,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2109,
+      "height": 859,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/ytpwfoqikkdoooxoiueq.png",
+      "bytes": 72722,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2484,
+      "height": 1259,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/zprtzykuxczogdcicodx.png",
+      "bytes": 331530,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2154,
+      "height": 1498,
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/zrossvhlsbbjotiqovmy.svg",
+      "bytes": 2684,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/04/zxwpacklalincvufipnv.png",
+      "bytes": 86041,
+      "kind": "image",
+      "format": "PNG",
+      "width": 3564,
+      "height": 612,
+      "status": "passed"
+    },
+    {
+      "path": "assets/05/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+      "bytes": 490,
+      "kind": "image",
+      "format": "PNG",
+      "width": 26,
+      "height": 30,
+      "status": "passed"
+    },
+    {
+      "path": "assets/05/anomjdrjsnumltxhzdbj.png",
+      "bytes": 151158,
+      "kind": "image",
+      "format": "PNG",
+      "width": 448,
+      "height": 276,
+      "status": "passed"
+    },
+    {
+      "path": "assets/05/epjpowrlzfcqbqcdswxi.png",
+      "bytes": 542644,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1532,
+      "height": 1056,
+      "status": "passed"
+    },
+    {
+      "path": "assets/05/epxxogaatbmoddmunxbg.png",
+      "bytes": 841014,
+      "kind": "image",
+      "format": "PNG",
+      "width": 3734,
+      "height": 1286,
+      "status": "passed"
+    },
+    {
+      "path": "assets/05/f6e69ca7b3bc.mp4",
+      "bytes": 8908954,
+      "kind": "video",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 2464,
+            "height": 1080
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "70.813106"
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "path": "assets/05/haxtjvlocxljprqslzet.png",
+      "bytes": 446076,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1336,
+      "height": 722,
+      "status": "passed"
+    },
+    {
+      "path": "assets/05/keheztoglncyubteqsvs.png",
+      "bytes": 778769,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1944,
+      "height": 662,
+      "status": "passed"
+    },
+    {
+      "path": "assets/05/ksaqoypkqkhskoyuwddf.png",
+      "bytes": 259658,
+      "kind": "image",
+      "format": "PNG",
+      "width": 908,
+      "height": 794,
+      "status": "passed"
+    },
+    {
+      "path": "assets/05/srdycouxtbdczirvrfvx.png",
+      "bytes": 566680,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1482,
+      "height": 1048,
+      "status": "passed"
+    },
+    {
+      "path": "assets/05/venenmvjpedtymqckuqr.png",
+      "bytes": 27393,
+      "kind": "image",
+      "format": "PNG",
+      "width": 384,
+      "height": 96,
+      "status": "passed"
+    },
+    {
+      "path": "assets/05/vnivayupcwpxxeimkkdk.png",
+      "bytes": 491359,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1174,
+      "height": 914,
+      "status": "passed"
+    },
+    {
+      "path": "assets/06/O1CN011ZMGwH29OcdzE9xFD_!!6000000008058-2-tps-1792-608.jpg",
+      "bytes": 113660,
+      "kind": "image",
+      "format": "JPEG",
+      "width": 1792,
+      "height": 608,
+      "status": "passed"
+    },
+    {
+      "path": "assets/06/O1CN017lCcZg1dwualbE3Ze_!!6000000003801-2-tps-1792-608.jpg",
+      "bytes": 70705,
+      "kind": "image",
+      "format": "JPEG",
+      "width": 1792,
+      "height": 608,
+      "status": "passed"
+    },
+    {
+      "path": "assets/06/O1CN01LUFzpt1LtYc4KYIUp_!!6000000001357-2-tps-1792-608.jpg",
+      "bytes": 154678,
+      "kind": "image",
+      "format": "JPEG",
+      "width": 1792,
+      "height": 608,
+      "status": "passed"
+    },
+    {
+      "path": "assets/06/O1CN01lNgDuDXAyEE4Mtkp_!!6000000001450-2-tps-2152-731.jpg",
+      "bytes": 126507,
+      "kind": "image",
+      "format": "JPEG",
+      "width": 2152,
+      "height": 731,
+      "status": "passed"
+    },
+    {
+      "path": "assets/06/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+      "bytes": 490,
+      "kind": "image",
+      "format": "PNG",
+      "width": 26,
+      "height": 30,
+      "status": "passed"
+    },
+    {
+      "path": "assets/06/jwqcipulixnrunkgwgsg.png",
+      "bytes": 1295391,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1792,
+      "height": 608,
+      "status": "passed"
+    },
+    {
+      "path": "assets/07/0ca0bfe0-bb60-48d8-a00a-f5f8e7f94d43.png",
+      "bytes": 1681241,
+      "kind": "image",
+      "format": "PNG",
+      "width": 3218,
+      "height": 1470,
+      "status": "passed"
+    },
+    {
+      "path": "assets/07/7349cfa4-3731-46a2-a819-a5bebeccefe7.png",
+      "bytes": 2674465,
+      "kind": "image",
+      "format": "PNG",
+      "width": 3560,
+      "height": 1142,
+      "status": "passed"
+    },
+    {
+      "path": "assets/07/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+      "bytes": 490,
+      "kind": "image",
+      "format": "PNG",
+      "width": 26,
+      "height": 30,
+      "status": "passed"
+    },
+    {
+      "path": "assets/07/alxgcigrtvprbzrceain.png",
+      "bytes": 1246864,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1792,
+      "height": 608,
+      "status": "passed"
+    },
+    {
+      "path": "assets/07/egpehthlfeckxhhfvuia.png",
+      "bytes": 1255223,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1792,
+      "height": 608,
+      "status": "passed"
+    },
+    {
+      "path": "assets/07/lhsvkhtxxtxmlsqukzne.png",
+      "bytes": 801642,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1792,
+      "height": 608,
+      "status": "passed"
+    },
+    {
+      "path": "assets/07/pxhlylkphrvkwwjfhwbn.svg",
+      "bytes": 10741,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/07/sdkwbncjtnogfycnrxyp.png",
+      "bytes": 910201,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1792,
+      "height": 608,
+      "status": "passed"
+    },
+    {
+      "path": "assets/07/teewauldmiptdrsftxrw.png",
+      "bytes": 708194,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1792,
+      "height": 608,
+      "status": "passed"
+    },
+    {
+      "path": "assets/07/vxkanfeljmbzfxyppsxr.png",
+      "bytes": 441438,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1792,
+      "height": 608,
+      "status": "passed"
+    },
+    {
+      "path": "assets/08/O1CN01JdIMjR8lVrH31JSi_!!6000000001255-0-tps-1488-664.jpg",
+      "bytes": 77489,
+      "kind": "image",
+      "format": "JPEG",
+      "width": 1488,
+      "height": 664,
+      "status": "passed"
+    },
+    {
+      "path": "assets/08/O1CN01YC7Ovl1wvW5xjnwHB_!!6000000006370-0-tps-1750-942.jpg",
+      "bytes": 169901,
+      "kind": "image",
+      "format": "JPEG",
+      "width": 1750,
+      "height": 942,
+      "status": "passed"
+    },
+    {
+      "path": "assets/08/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+      "bytes": 490,
+      "kind": "image",
+      "format": "PNG",
+      "width": 26,
+      "height": 30,
+      "status": "passed"
+    },
+    {
+      "path": "assets/08/fhtmgqaxbwwuopkpwmfn.svg",
+      "bytes": 14166,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/08/hgyqrsmlscltrtavppgy.svg",
+      "bytes": 7227,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/09/O1CN017Ngd7V1GJJBhMMJK1_!!6000000000601-2-tps-1792-608.jpg",
+      "bytes": 106918,
+      "kind": "image",
+      "format": "JPEG",
+      "width": 1792,
+      "height": 608,
+      "status": "passed"
+    },
+    {
+      "path": "assets/09/O1CN0185HJAo1zqQXOR7aHx_!!6000000006765-2-tps-1792-608.jpg",
+      "bytes": 83466,
+      "kind": "image",
+      "format": "JPEG",
+      "width": 1792,
+      "height": 608,
+      "status": "passed"
+    },
+    {
+      "path": "assets/09/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+      "bytes": 490,
+      "kind": "image",
+      "format": "PNG",
+      "width": 26,
+      "height": 30,
+      "status": "passed"
+    },
+    {
+      "path": "assets/09/igwmftvzzuwdynuvryae.svg",
+      "bytes": 4102,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/09/laaofzpvjyfbnkoqicnt.svg",
+      "bytes": 11721,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/10/TB1roWqp1T2gK0jSZFvXXXnFXXa-26-30.png",
+      "bytes": 490,
+      "kind": "image",
+      "format": "PNG",
+      "width": 26,
+      "height": 30,
+      "status": "passed"
+    },
+    {
+      "path": "assets/10/grwpxhstnaqomimapmdu.svg",
+      "bytes": 11396,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/10/gxdpvtwrrfzfyyypairm.svg",
+      "bytes": 6420,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/10/wnuzwznscfazrufcirjk.png",
+      "bytes": 869091,
+      "kind": "image",
+      "format": "PNG",
+      "width": 1922,
+      "height": 544,
+      "status": "passed"
+    },
+    {
+      "path": "assets/10/yjkifgcausbouqfjqblu.svg",
+      "bytes": 11335,
+      "kind": "svg",
+      "status": "passed"
+    },
+    {
+      "path": "assets/11/jupdvkhhldncmpqjmlat.png",
+      "bytes": 2631630,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2288,
+      "height": 1282,
+      "status": "passed"
+    },
+    {
+      "path": "assets/11/qwjejpgrqfjzfxvcgefv.png",
+      "bytes": 3138114,
+      "kind": "image",
+      "format": "PNG",
+      "width": 2292,
+      "height": 1288,
+      "status": "passed"
+    }
+  ]
+}

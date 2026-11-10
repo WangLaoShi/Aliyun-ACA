@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="64 46 592 868">
+  <defs>
+    <filter id="panelShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#0033CC" flood-opacity="0.10"/>
+    </filter>
+    <filter id="lineShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#0033CC" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="720" height="960" fill="#FFFFFF"/>
+
+  <rect x="64" y="46" width="592" height="868" rx="28" fill="#F7FAFF" filter="url(#panelShadow)"/>
+  <rect x="64" y="46" width="592" height="868" rx="28" fill="none" stroke="#E8EEFF" stroke-width="1.5"/>
+
+  <rect x="94" y="86" width="532" height="798" rx="22" fill="#FFFFFF" filter="url(#lineShadow)"/>
+
+  <text x="128" y="142" font-family="Helvetica Neue, Helvetica, PingFang SC, Microsoft YaHei, Arial, Tahoma" font-size="24" font-weight="800" fill="#0E1726">计算“心理阴影面积”</text>
+  <text x="128" y="184" font-family="Helvetica Neue, Helvetica, PingFang SC, Microsoft YaHei, Arial, Tahoma" font-size="17" fill="#3F4652">可以把这个梗拆成几个关键线索，做一次比喻式估算。</text>
+
+  <text x="128" y="250" font-family="Helvetica Neue, Helvetica, PingFang SC, Microsoft YaHei, Arial, Tahoma" font-size="19" font-weight="800" fill="#0033CC">公式</text>
+  <rect x="128" y="274" width="464" height="68" rx="14" fill="#F7F9FF" stroke="#D9E4FF" stroke-width="1.5"/>
+  <text x="148" y="317" font-family="Helvetica Neue, Helvetica, PingFang SC, Microsoft YaHei, Arial, Tahoma" font-size="16" font-weight="800" fill="#0033CC">阴影面积 = 认知失调强度 × 历史焦虑感 × 环境威胁水平</text>
+
+  <line x1="128" y1="414" x2="592" y2="414" stroke="#E8EEFF" stroke-width="1.5"/>
+
+  <text x="128" y="420" font-family="Helvetica Neue, Helvetica, PingFang SC, Microsoft YaHei, Arial, Tahoma" font-size="19" font-weight="800" fill="#0033CC">代入参数</text>
+  <circle cx="136" cy="460" r="4.5" fill="#0033CC"/>
+  <text x="156" y="467" font-family="Helvetica Neue, Helvetica, PingFang SC, Microsoft YaHei, Arial, Tahoma" font-size="16" fill="#0E1726">认知失调强度：8</text>
+  <text x="316" y="467" font-family="Helvetica Neue, Helvetica, PingFang SC, Microsoft YaHei, Arial, Tahoma" font-size="14" fill="#6B7280">身份突变剧烈</text>
+
+  <circle cx="136" cy="508" r="4.5" fill="#6281E0"/>
+  <text x="156" y="515" font-family="Helvetica Neue, Helvetica, PingFang SC, Microsoft YaHei, Arial, Tahoma" font-size="16" fill="#0E1726">历史焦虑感：9</text>
+  <text x="316" y="515" font-family="Helvetica Neue, Helvetica, PingFang SC, Microsoft YaHei, Arial, Tahoma" font-size="14" fill="#6B7280">典故带来危机感</text>
+
+  <circle cx="136" cy="556" r="4.5" fill="#FF6A00"/>
+  <text x="156" y="563" font-family="Helvetica Neue, Helvetica, PingFang SC, Microsoft YaHei, Arial, Tahoma" font-size="16" fill="#0E1726">环境威胁水平：7</text>
+  <text x="316" y="563" font-family="Helvetica Neue, Helvetica, PingFang SC, Microsoft YaHei, Arial, Tahoma" font-size="14" fill="#6B7280">处境自带紧迫感</text>
+
+  <rect x="128" y="612" width="464" height="72" rx="16" fill="#F7F9FF" stroke="#D9E4FF" stroke-width="1.5"/>
+  <text x="158" y="657" font-family="Helvetica Neue, Helvetica, PingFang SC, Microsoft YaHei, Arial, Tahoma" font-size="24" font-weight="800" fill="#0033CC">8 × 9 × 7 = 504</text>
+
+  <text x="128" y="728" font-family="Helvetica Neue, Helvetica, PingFang SC, Microsoft YaHei, Arial, Tahoma" font-size="17" fill="#3F4652">因此，可以把结果写成：</text>
+  <text x="360" y="774" font-family="Helvetica Neue, Helvetica, PingFang SC, Microsoft YaHei, Arial, Tahoma" font-size="24" font-weight="900" fill="#0E1726" text-anchor="middle">约 504 个“心理平方单位”</text>
+  <text x="128" y="810" font-family="Helvetica Neue, Helvetica, PingFang SC, Microsoft YaHei, Arial, Tahoma" font-size="15" fill="#6B7280">对比基准：普通人迷路约 50，本事件超过 10 倍。</text>
+
+</svg>

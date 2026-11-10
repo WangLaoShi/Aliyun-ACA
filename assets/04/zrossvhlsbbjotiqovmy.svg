@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 540" width="560" height="540">
+  <defs>
+    <style>
+      text {
+        font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", sans-serif;
+        fill: #4a4a4a;
+      }
+      .axis-label {
+        font-size: 18px;
+      }
+      .axis-end {
+        font-size: 15px;
+        fill: #888;
+      }
+      .point-label {
+        font-size: 18px;
+        fill: #333;
+      }
+      .annotation {
+        font-size: 15px;
+        fill: #9b4d8a;
+      }
+      .point {
+        stroke: #fff;
+        stroke-width: 2;
+      }
+    </style>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="560" height="540" fill="#ffffff"/>
+
+  <!-- 坐标轴（1:1 等长） -->
+  <line x1="80" y1="460" x2="480" y2="460" stroke="#555" stroke-width="2" stroke-linecap="round"/>
+  <line x1="80" y1="460" x2="80" y2="60" stroke="#555" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- X 轴箭头 -->
+  <polygon points="480,460 470,455 470,465" fill="#555"/>
+
+  <!-- Y 轴箭头 -->
+  <polygon points="80,60 75,70 85,70" fill="#555"/>
+
+  <!-- X 轴标题：箭头紧跟文字，整体居中 -->
+  <text x="280" y="510" text-anchor="middle" class="axis-label">有多像西餐？<tspan fill="#666">→</tspan></text>
+
+  <!-- Y 轴标题（竖排）：箭头紧跟文字，整体居中，文字旋转后 → 视觉上向上 -->
+  <text x="30" y="260" text-anchor="middle" class="axis-label" transform="rotate(-90, 30, 260)">有多像肉菜？<tspan fill="#666">→</tspan></text>
+
+  <!-- 轴端标签 -->
+  <text x="95" y="485" text-anchor="end" class="axis-end">中餐</text>
+  <text x="465" y="485" text-anchor="start" class="axis-end">西餐</text>
+  <text x="70" y="75" text-anchor="end" class="axis-end">肉菜</text>
+  <text x="70" y="450" text-anchor="end" class="axis-end">主食</text>
+
+  <!-- 虚线椭圆：位置靠近 -->
+  <ellipse cx="400" cy="330" rx="35" ry="50" fill="none" stroke="#a64d8a" stroke-width="2.5" stroke-dasharray="8,6"/>
+
+  <!-- 标注：位置靠近 -->
+  <text x="355" y="335" text-anchor="end" class="annotation">位置靠近</text>
+
+  <!-- 烤鸭：中餐 + 肉菜 -->
+  <circle cx="140" cy="130" r="10" fill="#c0392b" class="point"/>
+  <text x="140" y="165" text-anchor="middle" class="point-label">「烤鸭」</text>
+
+  <!-- 通心粉：西餐 + 主食 -->
+  <circle cx="400" cy="300" r="10" fill="#e67e22" class="point"/>
+  <text x="400" y="270" text-anchor="middle" class="point-label">「通心粉」</text>
+
+  <!-- 意大利面：西餐 + 主食 -->
+  <circle cx="400" cy="360" r="10" fill="#27ae60" class="point"/>
+  <text x="400" y="410" text-anchor="middle" class="point-label">「意大利面」</text>
+</svg>
