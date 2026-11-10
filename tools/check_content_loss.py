@@ -22,6 +22,13 @@ KNOWN_JUNK = {"-c600", "image", "img", "png", "gif"}
 DECOR_CHARS = "‒▪·•"
 EMOJI = "🚄✏️✅❓🧩⚠️▶️💡🎯📌🔍🧠🛠️✨🚀"
 
+# 有意修复的链接目标：原页面的相对链接被拼成了 404 地址，锚文本没动，只换目标。
+# 列在这里是为了让校验器仍然认账，同时在报告里数一次，避免「悄悄改链接」。
+URL_REPAIRS = {
+    "https://edu.aliyun.com/course/3126500/lesson/bailian.aliyun.com": "https://bailian.aliyun.com",
+    "https://edu.aliyun.com/course/3126500/lesson/livebench.ai": "https://livebench.ai",
+}
+
 
 def strip_syntax(text: str) -> str:
     # <br> 是换行语义，必须当成句子边界，否则「同一行」与「拆成两行」会被误判成内容变化
@@ -90,15 +97,29 @@ def main():
         after = units(open(cur, encoding="utf-8").read())
         after_text = " ".join(v for k, v in after if k == "text")
         after_links = {v for k, v in after if k == "link"}
+        repairs = sum(
+            1
+            for k, v in before
+            if k == "link" and v in URL_REPAIRS and URL_REPAIRS[v] in after_links
+        )
         missing = [
             v
             for k, v in sorted(before)
             if v not in KNOWN_JUNK
-            and ((k == "text" and v not in after_text) or (k == "link" and v not in after_links))
+            and (
+                (k == "text" and v not in after_text)
+                or (
+                    k == "link"
+                    and v not in after_links
+                    and URL_REPAIRS.get(v) not in after_links
+                )
+            )
         ]
         junk = sum(1 for k, v in before if v in KNOWN_JUNK)
         if junk:
             print(f"  ({name[:16]} 跳过 {junk} 个已知抓取垃圾词)")
+        if repairs:
+            print(f"  ({name[:16]} 计入 {repairs} 处已登记的链接修复)")
         if missing:
             bad += 1
             print(f"✗ {name} 丢失 {len(missing)} 个语义单元：")

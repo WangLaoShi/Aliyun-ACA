@@ -14,7 +14,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from safewrite import save  # noqa: E402
 
-REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+REPO = os.environ.get("MD_ROOT") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SNAPSHOT = "2026-10-28"
 REVISED = "2026-11-10"
 META = (
@@ -80,7 +80,7 @@ def link_review_table(text, ls):
     """课时11 回顾表第一列：课时N → 可点击。"""
 
     def rep(m):
-        n = int(m.group(1))
+        n = int(m.group(2))
         if n not in ls:
             return m.group(0)
         return f"| {link(ls[n][0], m.group(0).strip('| ').strip())} |"
