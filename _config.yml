@@ -40,4 +40,4 @@ repository:
 sphinx:
   config:
     language: zh_CN
-    html_baseurl: https://wanglaoshi.github.io/Aliyun-ACA/
+    html_baseurl: https://www.shujukexue.com/Aliyun-ACA/
