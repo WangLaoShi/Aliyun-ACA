@@ -1,0 +1,2 @@
+jupyter-book==1.0.4.post1
+linkify-it-py==2.2.0

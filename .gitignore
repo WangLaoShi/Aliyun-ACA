@@ -1,3 +1,6 @@
 .DS_Store
 __pycache__/
 *.pyc
+_build/
+.venv/
+.jupyter_cache/

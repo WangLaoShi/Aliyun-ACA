@@ -1,0 +1,20 @@
+format: jb-book
+root: index
+parts:
+  - caption: 课时
+    chapters:
+      - file: 01-认识大模型
+      - file: 02-大模型的典型应用场景
+      - file: 03-通过优化输入来提升回答质量
+      - file: "04-通过 RAG 增强大模型回答原本无法回答的问题"
+      - file: 05-通过微调改善大模型在垂直领域的表现
+      - file: "06-安装桌面 Agent，开始用它干活"
+      - file: "07-让 Agent 接入知识库和工具"
+      - file: "08-用 Skill 固化你的工作方法"
+      - file: "09-给 Agent 加一道自检闭环"
+      - file: 10-大模型应用的安全合规
+      - file: 11-学习总结
+  - caption: 附录
+    chapters:
+      - file: 图示文字索引
+      - file: 勘误

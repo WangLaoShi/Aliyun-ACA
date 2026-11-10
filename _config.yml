@@ -1,0 +1,43 @@
+title: 阿里云大模型工程师 ACA
+author: 本地学习存档
+copyright: "2026"
+only_build_toc_files: true
+
+exclude_patterns:
+  - _build
+  - _backup
+  - .venv
+  - tools
+  - source
+  - "*.py"
+  - "*.json"
+  - "*.txt"
+
+execute:
+  execute_notebooks: "off"
+
+parse:
+  myst_enable_extensions:
+    - colon_fence
+    - html_admonition
+    - html_image
+    - linkify
+    - tasklist
+
+html:
+  use_issues_button: false
+  use_repository_button: true
+  use_edit_page_button: false
+  home_page_in_navbar: true
+  extra_footer: "课文抓取自阿里云大模型 ACA 认证课程（course 3126500），本地整理存档，不是课程官方发布物。"
+  announcement: "这是离线学习存档，不是课程官方发布物。账号、价格和法规会变化，使用前先看勘误。"
+
+repository:
+  url: https://github.com/WangLaoShi/Aliyun-ACA
+  path_to_book: .
+  branch: main
+
+sphinx:
+  config:
+    language: zh_CN
+    html_baseurl: https://wanglaoshi.github.io/Aliyun-ACA/
